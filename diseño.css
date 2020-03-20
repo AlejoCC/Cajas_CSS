@@ -1,0 +1,55 @@
+.caja1{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: red;
+}
+
+.caja2{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: green;
+}
+
+.caja1relativa{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.caja2relativa{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: relative;
+    left: 600px;
+    top: 0px;
+}
+.caja3relativa{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.cajapadre{
+    height: 800px;
+    width: 800px;
+    background-color: blue;
+    position: absolute;
+}
+
+.cajahijo1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
+.cajahijo2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    left: 80px;
+}
